@@ -1,0 +1,22 @@
+{
+  "customers": [
+    {
+      "id": "1",
+      "name": "Anirban Das",
+      "email": "anirban.das4@mindtree.com",
+      "age": 24
+    },
+    {
+      "id": "2",
+      "name": "Brad Traversy",
+      "email": "brad.traversy@outube.com",
+      "age": 38
+    },
+    {
+      "name": "Peter Parker",
+      "email": "peter.parker@gmail.com",
+      "age": 25,
+      "id": "3"
+    }
+  ]
+}

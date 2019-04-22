@@ -1,0 +1,23 @@
+{
+  "name": "mygql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "monitor": "nodemon server/index.js",
+    "json_server": "json-server --watch server/data.json"
+  },
+  "author": "Anirban Das",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "express": "^4.16.4",
+    "express-graphql": "^0.7.1",
+    "graphql": "^14.1.1",
+    "json-server": "^0.14.2"
+  }
+}

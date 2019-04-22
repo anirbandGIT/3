@@ -1,0 +1,14 @@
+const heroModel = new heroModel(value)
+//now handle error for the entered data about hero
+try{
+    const heroCreated = await heroModel.save();//wait until saved
+    if(!heroCreated) {
+        resp.status(500).json({
+            message: 'Failed to create hero object',
+            data:'',
+            status: 500
+        });
+        return;
+    }
+
+}

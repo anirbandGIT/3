@@ -1,0 +1,58 @@
+{
+  "customers": [
+    {
+      "id": "1",
+      "name": "Rahul Mehta",
+      "email": "cruzer.mehta.97@gmail.com",
+      "age": 50
+    },
+    {
+      "id": "2",
+      "name": "Suraj Kumar",
+      "email": "surajkumar@gmail.com",
+      "age": 24
+    },
+    {
+      "id": "3",
+      "name": "Ganesh Gajre",
+      "email": "ganesh@gmail.com",
+      "age": 22
+    },
+    {
+      "id": "4",
+      "name": "Aniket Jaiswal",
+      "email": "aniket@gmail.com",
+      "age": 22
+    },
+    {
+      "id": "5",
+      "name": "Nishanth",
+      "email": "nishanth@gmail.com",
+      "age": 22
+    },
+    {
+      "id": "6",
+      "name": "Soumya",
+      "email": "soumya@gmail.com",
+      "age": 21
+    },
+    {
+      "name": "Madhav Reddy",
+      "email": "xyz@gmail.com",
+      "age": 25,
+      "id": "8"
+    },
+    {
+      "name": "Rahul",
+      "email": "abc@gmail.com",
+      "age": 22,
+      "id": "10"
+    },
+    {
+      "name": "rahul",
+      "email": "skdakd",
+      "age": 22,
+      "id": "7"
+    }
+  ]
+}

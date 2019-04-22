@@ -1,0 +1,35 @@
+[{
+    "movieName": "Avengers Endgame",
+    "movieDuration": 2,
+    "movieRating": 7.5,
+    "movieGenre": "THRILLER",
+    "isMovieGood": true
+},
+{
+    "movieName": "Captain Marvel",
+    "movieDuration": 1.5,
+    "movieRating": 8.5,
+    "movieGenre": "THRILLER",
+    "isMovieGood": true
+},
+{
+    "movieName": "Glass",
+    "movieDuration": 2,
+    "movieRating": 8,
+    "movieGenre": "ADVENTURE",
+    "isMovieGood": true
+},
+{
+    "movieName": "LOTR Animated",
+    "movieDuration": 4.5,
+    "movieRating": 6.5,
+    "movieGenre": "ANIME",
+    "isMovieGood": false
+},
+{
+    "movieName": "A SHORT FILM BY PIXAR",
+    "movieDuration": 0.5,
+    "movieRating": 3,
+    "movieGenre": "ROMANCE",
+    "isMovieGood": false
+}]

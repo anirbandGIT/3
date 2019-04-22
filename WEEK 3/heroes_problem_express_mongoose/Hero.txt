@@ -1,0 +1,42 @@
+var Hero = function(heroName, heroHeight, heroType, canFly, fanFollowing, superPowers, fightsWon) {
+    var _heroName = heroName || "unknown";
+    var _heroHeight = heroHeight || "unknown";
+    var _heroType = heroType || "unknown";
+    var _canFly = canFly || "unknown";
+    var _fanFollowing = fanFollowing || "unknown";
+    var _superPowers = superPowers || "unknown";
+    var _fightsWon = fightsWon || "unknown";
+
+
+    Object.defineProperties(this, {
+        "heroName": {
+            get: function () { return _heroName },
+            set: function (value) { _heroName = value }
+        },
+        "heroHeight": {
+            get: function () { return _heroHeight },
+            set: function (value) { _heroHeight = value }
+        },
+        "heroType": {
+            get: function () { return _heroType },
+            set: function (value) { _heroType = value }
+        },
+        "canFly": {
+            get: function () { return _canFly },
+            set: function (value) { _canFly = value }
+        },
+        "fanFollowing": {
+            get: function () { return _fanFollowing },
+            set: function (value) { _fanFollowing = value }
+        },
+        "superPowers": {
+            get: function () { return _superPowers },
+            set: function (value) { _superPowers = value }
+        },
+        "fightsWon": {
+            get: function () { return _fightsWon },
+            set: function (value) { _fightsWon = value }
+        }
+    })
+};
+module.exports=Hero;
